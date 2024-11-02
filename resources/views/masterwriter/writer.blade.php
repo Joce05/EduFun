@@ -14,8 +14,8 @@
                 <a href="{{route('admin.writerid', ['id'=>$w->id])}}">
                     <img src="{{asset('assets\writerpic.jpg')}}" class="card-img-top rounded-circle mx-auto mt-3"  alt="...">
                         <div class="card-body text-center">
-                            <h5 class="card-title fw-bolder">{{$w -> name}}</h5>
-                            <h6 class="card-text">{{$w -> specialist}}</h6>
+                            <h5 class="card-title fw-bolder" style="color: black; text-decoration: none;">{{$w -> name}}</h5>
+                            <h6 class="card-text" style="text-decoration: none; color: black;">{{$w -> specialist}}</h6>
                         </div>
                 </a>
             </div>
